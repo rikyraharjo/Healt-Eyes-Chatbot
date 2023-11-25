@@ -1,0 +1,987 @@
+{
+    "intents": [
+        {
+            "tag": "notfound",
+            "patterns": [
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "responses": [
+                "Maaf tidak tahu",
+                "saya tidak tahu",
+                "kata diluar kemampuan kami",
+                "kami tidak tahu, mungkin anda bisa menanyakan mengenai kesehatan mata",
+                "mungkin anda bisa menanyakan mengenai aplikasi ini"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "Halo",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam",
+                "Apa kabar?",
+                "Bagaimana hari Anda?",
+                "Tolong bantu saya",
+                "mau tanya",
+                "Hay",
+                "Hy",
+                "Hallo",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Hai",
+                "p",
+                "hai",
+                "halo",
+                "hay",
+                "hai",
+                "mikum",
+                "assamualaikaum",
+                "hi"
+            ],
+            "responses": [
+                "Halo, ada yang bisa saya bantu?",
+                "Hai, ada yang ingin Anda tanyakan?",
+                "Bagaimana saya bisa membantu hari ini?",
+                "Apa yang bisa saya lakukan untuk Anda?",
+                "Ada yang spesifik yang ingin Anda ketahui?",
+                "Apakah Anda membutuhkan bantuan hari ini?",
+                "halo, silahkan bertanya",
+                "Saya hanya program komputer, tetapi siap membantu Anda",
+                "Silahkan Jangan ragu untuk bertanya jika ada yang perlu Anda tanyakan.",
+                "Tentu, saya di sini untuk membantu Anda.",
+                "Apa yang mau Anda ketahui?",
+                "silahkan tanyakan saja",
+                "ada yang bisa saya bantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gejala katarak",
+            "patterns": [
+                "apa itu katarak?",
+                "Gejala katarak",
+                "apa saja gejala katarak",
+                "apa gejala katarak",
+                "gejala katarak?"
+            ],
+            "responses": [
+                "Penglihatan kabur, perubahan warna, sulit melihat di malam hari, sensasi seperti kabut, kesulitan membaca, dan kilauan seperti halo di sekitar lampu."
+            ]
+        },
+        {
+            "tag": "diagnosis katarak",
+            "patterns": [
+                "Bagaimana katarak terdiagnosis?",
+                "cara mendiagonosis katarak",
+                "cara mengetahui katarak",
+                "gimana mengetahui katarak?"
+            ],
+            "responses": [
+                "Umumnya Dokter mata akan melakukan pemeriksaan mata, melihat perubahan pada lensa mata, dan mengkonfirmasi dengan pemeriksaan mata lengkap, Namun sekarang anda dapat memeriksa kesehatan mata dengan mudah menggunakan EyeU."
+            ]
+        },
+        {
+            "tag": "gejala awal katarak",
+            "patterns": [
+                "Gejala awal katarak",
+                "apa gejala awalnya?",
+                "apa tanda awal katarak?",
+                "tanda awal katarak apa?",
+                "gejala awal katarak?"
+            ],
+            "responses": [
+                "Umumnya, gejala awal katarak termasuk penglihatan kabur, kesulitan melihat detail, dan perlu penerangan lebih saat membaca."
+            ]
+        },
+        {
+            "tag": "kebutaan katarak",
+            "patterns": [
+                "Bisakah katarak menyebabkan kebutaan?",
+                "penyebab kebutaan katarak?",
+                "apa bisa katarak menyebabkan kebutaan?",
+                "katarak bisa buta?"
+            ],
+            "responses": [
+                "Katarak yang tidak diobati dapat menyebabkan kebutaan, tetapi operasi pengangkatan katarak bisa mengembalikan penglihatan."
+            ]
+        },
+        {
+            "tag": "obat katarak",
+            "patterns": [
+                "Bagaimana cara mengobati katarak?",
+                "cara mengobati katarak",
+                "obat katarak apa?",
+                "apa obat katarak",
+                "apa obat ampuh katarak?",
+                "apa obat dari katarak?"
+            ],
+            "responses": [
+                "Pengobatan utama katarak adalah operasi penggantian lensa mata kabur dengan lensa buatan yang jernih."
+            ]
+        },
+        {
+            "tag": "anak-anak katarak",
+            "patterns": [
+                "Gejala katarak pada anak-anak",
+                "gejala katarak pada anak?",
+                "gejala katarak pada anak",
+                "gejala katarak pada anak-anak"
+            ],
+            "responses": [
+                "Gejala katarak pada anak-anak bisa mirip dengan orang dewasa, seperti penglihatan kabur, dan perlu dikonsultasikan dengan dokter mata."
+            ]
+        },
+        {
+            "tag": "kambuh katarak",
+            "patterns": [
+                "Apakah katarak bisa kambuh?",
+                "katarak kambuh?",
+                "apa katarak bisa kambuh?"
+            ],
+            "responses": [
+                "Setelah operasi pengangkatan katarak, katarak biasanya tidak kambuh. Operasi ini permanen dan menggantikan lensa yang kabur dengan lensa buatan yang jernih."
+            ]
+        },
+        {
+            "tag": "malam hari katarak",
+            "patterns": [
+                "gimana Katarak dan penglihatan malam hari",
+                "bagaimana penglihatan mata katarak dimalam hari?",
+                "apa yang dilihat orang katarak malam hari?"
+            ],
+            "responses": [
+                "Katarak dapat membuat penglihatan malam hari sulit karena objek mungkin tampak lebih kabur atau sulit terlihat."
+            ]
+        },
+        {
+            "tag": "mencegah katarak",
+            "patterns": [
+                "Bagaimana pencegahan katarak?",
+                "apa saja cara mencegah katarak?",
+                "cegah katarak",
+                "cara cegah katarak"
+            ],
+            "responses": [
+                "Pencegahan termasuk menghindari sinar UV, berhenti merokok, dan menjaga pola makan yang sehat dengan makanan yang mengandung antioksidan."
+            ]
+        },
+        {
+            "tag": "gejala glaukoma",
+            "patterns": [
+                "Apa itu glaukoma?",
+                "Gejala glaukoma",
+                "apa saja gejala glaukoma",
+                "apa gejala glaukoma",
+                "gejala glaukoma?"
+            ],
+            "responses": [
+                "Mata merah, penurunan penglihatan perlahan, sakit kepala, kilauan cahaya, mual, pandangan sempit, dan peningkatan tekanan mata."
+            ]
+        },
+        {
+            "tag": "diagnosis glaukoma",
+            "patterns": [
+                "Bagaimana glaukoma terdiagnosis?",
+                "cara mendiagonosis glaukoma",
+                "cara mengetahui glaukoma",
+                "gimana mengetahui glaukoma?"
+            ],
+            "responses": [
+                "Umumnya Dokter mata akan melakukan pemeriksaan mata, melihat perubahan pada lensa mata, dan mengkonfirmasi dengan pemeriksaan mata lengkap, Namun sekarang anda dapat memeriksa kesehatan mata dengan mudah menggunakan EyeU."
+            ]
+        },
+        {
+            "tag": "nyeri glaukoma",
+            "patterns": [
+                "Apakah glaukoma menyebabkan nyeri mata?",
+                "nyeri pada mata itu glaukoma?",
+                "nyeri mata",
+                "glaukoma menyebabkan nyeri?",
+                "glaukoma menyebabkan nyeri"
+            ],
+            "responses": [
+                "Glaukoma biasanya tidak menyebabkan nyeri mata, namun dapat menyebabkan sakit kepala dan ketidaknyamanan mata."
+            ]
+        },
+        {
+            "tag": "mata kabur",
+            "patterns": [
+                "Bisakah glaukoma menyebabkan mata kabur?",
+                "penyebab mata kabur glaukoma?",
+                "apa bisa glaukoma menyebabkan mata kabur?",
+                "glaukoma bisa mata kabur?"
+            ],
+            "responses": [
+                "Glaukoma dapat menyebabkan penglihatan buram atau kabur, terutama pada bidang pandang perifer."
+            ]
+        },
+        {
+            "tag": "obat glaukoma",
+            "patterns": [
+                "Bagaimana cara mengobati glaukoma?",
+                "cara mengobati glaukoma",
+                "obat glaukoma apa?",
+                "apa obat glaukoma",
+                "apa obat ampuh glaukoma?",
+                "apa obat dari glaukoma?"
+            ],
+            "responses": [
+                "Pengobatan glaukoma melibatkan obat tetes mata, operasi laser, atau pembedahan untuk mengurangi tekanan mata dan mencegah kerusakan saraf optik."
+            ]
+        },
+        {
+            "tag": "kacamata",
+            "patterns": [
+                "apa kacamata bisa mengobati glaukoma",
+                "kacamata mencegah glaukoma?",
+                "kacamata dipakai penderita glaukoma bisa sembuh?",
+                "glaukoma harus pake kacamata?"
+            ],
+            "responses": [
+                "Kacamata biasa tidak mengobati glaukoma, tetapi dokter mata dapat meresepkan kacamata khusus untuk membantu penglihatan yang terpengaruh oleh glaukoma."
+            ]
+        },
+        {
+            "tag": "faktor resiko",
+            "patterns": [
+                "Apakah resiko glaukoma?",
+                "apa akibat glaukoma",
+                "apa saja faktor glaukoma?"
+            ],
+            "responses": [
+                "Faktor risiko meliputi usia, riwayat keluarga, tekanan mata tinggi, diabetes, dan penyakit mata lainnya."
+            ]
+        },
+        {
+            "tag": "sembuh glaukoma",
+            "patterns": [
+                "apa glaukoma bisa disembuhkan?",
+                "glaukoma bisa sembuh?",
+                "apakah bisa sembuh dari glaukoma?"
+            ],
+            "responses": [
+                "Glaukoma tidak memiliki obat penyembuh total, tetapi bisa dikelola dengan pengobatan untuk mencegah kerusakan mata lebih lanjut."
+            ]
+        },
+        {
+            "tag": "mencegah glaukoma",
+            "patterns": [
+                "Bagaimana pencegahan glaukoma?",
+                "apa saja cara mencegah glaukoma?",
+                "cegah glaukoma",
+                "cara cegah glaukoma"
+            ],
+            "responses": [
+                "Pencegahan termasuk menghindari sinar UV, berhenti merokok, dan menjaga pola makan yang sehat dengan makanan yang mengandung antioksidan."
+            ]
+        },
+        {
+            "tag": "pencegah masalah mata",
+            "patterns": [
+                "apa bisa mencegah masalah mata?",
+                "apa saja cara mencegah masalah mata?",
+                "apa pencegah masalah mata?",
+                "apa pencegah penyakit mata"
+            ],
+            "responses": [
+                "Lindungi mata dari sinar UV dengan kacamata hitam, batasi penggunaan gadget, periksa mata secara teratur, hindari asap rokok, dan konsumsi makanan bergizi seperti wortel, bayam, dan ikan salmon."
+            ]
+        },
+        {
+            "tag": "mata sehat",
+            "patterns": [
+                "Bagaimana cara menjaga mata?",
+                "cara mata tetap sehat",
+                "cara mata sehat selalu",
+                "gimana caranya agar mata sehat?"
+            ],
+            "responses": [
+                "Istirahat mata saat bekerja di depan komputer, gunakan kacamata pelindung saat olahraga, hindari paparan debu dan asap, tidur cukup, dan periksakan mata ke dokter mata secara berkala."
+            ]
+        },
+        {
+            "tag": "tidur",
+            "patterns": [
+                "Apakah tidur cukup berpengaruh pada mata?",
+                "istirahat ngaruh ke mata?",
+                "cukup tidur bagus buat mata?"
+            ],
+            "responses": [
+                "Ya, tidur cukup membantu memperbaiki kesehatan mata dan mengurangi risiko kekeringan mata serta iritasi. Pastikan tidur malam yang cukup setiap hari."
+            ]
+        },
+        {
+            "tag": "makanan",
+            "patterns": [
+                "apa makanan yang baik untuk mata?",
+                "makanan apa aja buat mata sehat?",
+                "makan apa biar mata sehat?",
+                "mata sehat harus makan apa?"
+            ],
+            "responses": [
+                "Makan makanan kaya vitamin A, C, E, dan omega-3 seperti wortel, jeruk, kacang-kacangan, dan ikan salmon untuk menjaga kesehatan mata dan penglihatan."
+            ]
+        },
+        {
+            "tag": "menjaga mata anak",
+            "patterns": [
+                "Bagaimana cara menjaga mata anak?",
+                "cara menjaga mata anak-anak",
+                "cara menjaga mata anak"
+            ],
+            "responses": [
+                "Batasi waktu menggunakan gadget, berikan istirahat mata setiap jam, pastikan pencahayaan cukup saat membaca, dan beri mereka makanan sehat yang mengandung vitamin dan mineral penting untuk mata."
+            ]
+        },
+        {
+            "tag": "mata kering",
+            "patterns": [
+                "apa cara cegah mata kering",
+                "cara mengatasi mata kering",
+                "mata kering cara cegahnya gimana?"
+            ],
+            "responses": [
+                "Berkedip secara teratur saat menggunakan komputer, hindari paparan kipas angin atau AC langsung ke mata, dan gunakan tetes mata lembab bila perlu untuk menjaga kelembapan mata."
+            ]
+        },
+        {
+            "tag": "periksa mata",
+            "patterns": [
+                "apa penting periksa mata?",
+                "periksa mata buat apa",
+                "periksa mata penting?",
+                "emang penting periksa mata?"
+            ],
+            "responses": [
+                "Pemeriksaan mata rutin dapat mendeteksi masalah mata atau penyakit mata secara dini, memungkinkan penanganan cepat dan efektif, serta menjaga kesehatan mata Anda dengan baik."
+            ]
+        },
+        {
+            "tag": "mata merah",
+            "patterns": [
+                "apa cara cegah mata merah?",
+                "gimana cegah mata merah?",
+                "apakah bisa mata merah dicegah?"
+            ],
+            "responses": [
+                "Cuci tangan dengan bersih, hindari menyentuh mata dengan tangan kotor, jangan menggunakan lensa kontak terlalu lama, dan hindari paparan asap rokok atau debu untuk mencegah iritasi dan infeksi mata."
+            ]
+        },
+        {
+            "tag": "tes mandiri",
+            "patterns": [
+                "bagaimana melakukan tes penglihatan mandiri di rumah?",
+                "apa saja tes penglihatan mandiri?",
+                "apa bisa melakukan tes penglihatan mandiri",
+                "apa tes penglihatan bisa dirumah?"
+            ],
+            "responses": [
+                "Tutup satu mata, baca huruf dari jarak berbeda, lakukan hal yang sama dengan mata satunya. Jangan ragu kunjungi dokter mata jika ada perubahan."
+            ]
+        },
+        {
+            "tag": "masalah penglihatan",
+            "patterns": [
+                "apa tanda-tanda punya masalah penglihatan?",
+                "apa tanda anak ada masalah penglihatan",
+                "apa tanya masalah penglihatan anak?"
+            ],
+            "responses": [
+                "Tanda-tanda meliputi berganti posisi saat membaca, sering mengucek mata, atau merapat ke benda saat membaca. Pemeriksaan mata rutin sangat penting untuk anak."
+            ]
+        },
+        {
+            "tag": "usia",
+            "patterns": [
+                "Apakah tes mandiri cocok untuk semua usia?",
+                "tes mandiri untuk siapa?",
+                "untuk siapa tes penglihatan mandiri?"
+            ],
+            "responses": [
+                "Tes mandiri umumnya cocok untuk anak dan dewasa. Namun, bayi dan anak balita membutuhkan pemeriksaan mata khusus oleh dokter mata karena kemampuan mereka yang terbatas."
+            ]
+        },
+        {
+            "tag": "kelelahan mata",
+            "patterns": [
+                "kelelahan mata",
+                "bagaimana cara mengurangi kelelahan mata?",
+                "cara mengurangi kelelahan mata"
+            ],
+            "responses": [
+                "Istirahat mata dengan teknik 20-20-20, hindari cahaya biru malam hari, atur tingkat kecerahan layar, dan pastikan posisi layar sejajar dengan mata."
+            ]
+        },
+        {
+            "tag": "kacamata radiasi",
+            "patterns": [
+                "apa kacamata radiasi bisa membantu?",
+                "apa kacamata radiasi bisa mengurangi masalah mata?",
+                "manfaat menggunakan kacamata radiasi"
+            ],
+            "responses": [
+                "Ya, kacamata anti radiasi biru dapat membantu melindungi mata dari cahaya biru. Pastikan kacamata tersebut memiliki sertifikasi dan nyaman saat digunakan."
+            ]
+        },
+        {
+            "tag": "memijat",
+            "patterns": [
+                "Apakah memijat area mata bisa mengurangi kelelahan mata?",
+                "memijat mata bisa membantu kelelahan?",
+                "bagaimana jika kita memijat area mata?"
+            ],
+            "responses": [
+                "Pemijatan lembut pada area sekitar mata dapat membantu meredakan kelelahan. Gunakan ujung jari dan pijat dengan gerakan melingkar secara perlahan."
+            ]
+        },
+        {
+            "tag": "vitamin",
+            "patterns": [
+                "apa manfaat vitamin bisa mengurangi kelelahan mata?",
+                "vitamin buat mata bisa?",
+                "konsumsi vitamin bisa membantu kesehatan mata?",
+                "manfaat vitamin buat mata apa?"
+            ],
+            "responses": [
+                "Vitamin A, C, dan E penting untuk kesehatan mata. Konsultasikan dengan dokter sebelum mengonsumsi suplemen. Gizi seimbang juga berperan dalam menjaga kesehatan mata."
+            ]
+        },
+        {
+            "tag": "cahaya",
+            "patterns": [
+                "apa membaca di cahaya redup berbahaya?",
+                "apa efek membaca di cahaya redup?",
+                "apa yang terjadi kita membaca di cahaya redup?"
+            ],
+            "responses": [
+                "Ya, membaca dalam cahaya yang redup memaksa mata bekerja lebih keras, menyebabkan kelelahan. Pastikan pencahayaan cukup saat membaca untuk mengurangi tekanan mata."
+            ]
+        },
+        {
+            "tag": "rokok",
+            "patterns": [
+                "rokok mempengaruhi mata?",
+                "gimana rokok mempengaruhi mata?",
+                "merokok berpengaruh ke kesehatan mata?",
+                "rokok menyebabkan masalah mata?"
+            ],
+            "responses": [
+                "Merokok dapat meningkatkan risiko katarak dan glaukoma, serta merusak pembuluh darah mata, mengurangi aliran darah ke mata."
+            ]
+        },
+        {
+            "tag": "alkohol",
+            "patterns": [
+                "alkohol memperngaruhi mata?",
+                "apa alkohol mempengaruhi kesehatan mata?",
+                "alkohol penyebab masalah mata?"
+            ],
+            "responses": [
+                "Alkohol berlebihan dapat merusak saraf mata, mengurangi kontraksi pupil, dan menyebabkan penglihatan buram, terutama pada malam hari."
+            ]
+        },
+        {
+            "tag": "pola",
+            "patterns": [
+                "Apakah pola makan mempegaruhi kesehatan mata?",
+                "bagaimana pola makan yang baik untuk  mata?",
+                "apa yang harus dikomsumsi untuk mata sehat?"
+            ],
+            "responses": [
+                "Makanan kaya vitamin A, C, E, dan omega-3 mendukung kesehatan mata. Kekurangan nutrisi dapat menyebabkan masalah penglihatan seperti katarak."
+            ]
+        },
+        {
+            "tag": "kafein",
+            "patterns": [
+                "apa kafein penyebab masalah mata?",
+                "kafein menyebabkan masalah mata?",
+                "konsumsi kafein bisa mengganggu kesehatan mata?",
+                "dampak buruk kafein ke mata"
+            ],
+            "responses": [
+                "Kafein dalam batas wajar tidak berpengaruh pada mata. Namun, konsumsi berlebihan bisa menyebabkan kekeringan mata. Minumlah air untuk menjaga kelembapan mata."
+            ]
+        },
+        {
+            "tag": "makanan",
+            "patterns": [
+                "apa makanan yang bisa membantu kesehatan mata?",
+                "makanan apa saja yang baik untuk mata?",
+                "apa makanan untuk mata sehat?"
+            ],
+            "responses": [
+                "Makanan kaya antioksidan seperti buah-buahan, sayuran hijau, dan ikan berminyak dapat membantu melawan kerusakan yang disebabkan oleh konsumsi alkohol berlebihan.",
+                "Makanan seperti wortel, bayam, ikan salmon, telur, dan kacang almond mengandung nutrisi penting yang mendukung kesehatan mata dan penglihatan."
+            ]
+        },
+        {
+            "tag": "pola makan",
+            "patterns": [
+                "apa pola makan yang baik?",
+                "cara pola makan baik",
+                "pola makan baik kaya apa?"
+            ],
+            "responses": [
+                "Pola makan seimbang dengan banyak buah, sayur, dan makanan mengandung vitamin C dan E dapat membantu mengurangi risiko katarak dan menjaga kesehatan mata."
+            ]
+        },
+        {
+            "tag": "masalah mata",
+            "patterns": [
+                "apa masalah mata lansia?",
+                "apa masalah mata umum pada lansia?",
+                "apa masalah mata pada lansia?",
+                "masalah mata lansia"
+            ],
+            "responses": [
+                "Katarak, degenerasi makula, glaukoma, dan penurunan penglihatan adalah masalah umum pada lansia. Semua membutuhkan pengelolaan yang tepat."
+            ]
+        },
+        {
+            "tag": "katarak lansia",
+            "patterns": [
+                "bagaimana mengobati mata lansia?",
+                "apa obat katarak?",
+                "cara mengobati katarak?"
+            ],
+            "responses": [
+                "Satu-satunya cara mengelola katarak adalah dengan operasi penggantian lensa mata yang kabur dengan lensa buatan yang jernih."
+            ]
+        },
+        {
+            "tag": "cegah glaukoma",
+            "patterns": [
+                "Apakah glaukoma bisa dicegah?",
+                "bagaimana mencegah glaukoma?",
+                "apa yang harus dilakukan untuk mencegah glaukoma?"
+            ],
+            "responses": [
+                "Glaukoma tidak dapat dicegah, tetapi dapat dikendalikan dengan pengobatan untuk mengurangi tekanan mata dan menghindari kerusakan saraf optik."
+            ]
+        },
+        {
+            "tag": "terapi",
+            "patterns": [
+                "apa ada terapi mata?",
+                "terapi mata gimana?",
+                "apa terapi mata bisa mengurangi masalah mata?",
+                "terapi mata bisa mengatasi masalah mata?"
+            ],
+            "responses": [
+                "Terapi penglihatan seperti rehabilitasi penglihatan, bantuan pembaca, dan perangkat bantu optik dapat membantu orang tua mengatasi penurunan penglihatan."
+            ]
+        },
+        {
+            "tag": "menjaga",
+            "patterns": [
+                "cara menjaga mata lansia",
+                "bagaimana menjaga mata lansia?",
+                "gimana menjaga mata lansia?",
+                "gimana menjaga mata"
+            ],
+            "responses": [
+                "Periksakan mata secara teratur, hindari paparan sinar UV dengan kacamata hitam, dan konsumsi makanan sehat yang mengandung vitamin A, C, dan E. Jaga tekanan darah dan gula darah juga penting."
+            ]
+        },
+        {
+            "tag": "masalah mata",
+            "patterns": [
+                "apa masalah mata lansia?",
+                "apa masalah mata umum pada lansia?",
+                "apa masalah mata pada lansia?",
+                "masalah mata lansia"
+            ],
+            "responses": [
+                "Katarak, degenerasi makula, glaukoma, dan penurunan penglihatan adalah masalah umum pada lansia. Semua membutuhkan pengelolaan yang tepat."
+            ]
+        },
+        {
+            "tag": "katarak lansia",
+            "patterns": [
+                "bagaimana mengobati mata lansia?",
+                "apa obat katarak?",
+                "cara mengobati katarak?"
+            ],
+            "responses": [
+                "Satu-satunya cara mengelola katarak adalah dengan operasi penggantian lensa mata yang kabur dengan lensa buatan yang jernih."
+            ]
+        },
+        {
+            "tag": "alergi mata",
+            "patterns": [
+                "apa tanda alergi mata?",
+                "alergi pada mata",
+                "tanda-tanda alergi mata",
+                "apa tanda-tanda alergi mata"
+            ],
+            "responses": [
+                "Gatal, kemerahan, mata berair, dan sensasi terbakar adalah gejala umum alergi mata. Seringkali disertai bersin dan hidung tersumbat."
+            ]
+        },
+        {
+            "tag": "perbedaan",
+            "patterns": [
+                "apa perbedaan alergi dan infeksi mata?",
+                "apa alergi dan infeksi mata itu sama?",
+                "apa yang dimaksud alergi dan infeksi mata?",
+                "perbedaan infeksi dan alergi mata"
+            ],
+            "responses": [
+                " Alergi mata biasanya tidak disertai nanah. Jika ada nanah, itu bisa tanda infeksi. Periksakan mata ke dokter untuk diagnosis yang tepat."
+            ]
+        },
+        {
+            "tag": "obat",
+            "patterns": [
+                "obat alergi mata",
+                "apa obat alergi mata",
+                "obat alergi harus sesuai resep dokter?",
+                "gimana kalo obat tanpa resep dokter?"
+            ],
+            "responses": [
+                "Obat bebas bisa membantu meredakan gejala ringan, tapi jika parah, dokter bisa meresepkan obat antihistamin atau tetes mata khusus."
+            ]
+        },
+        {
+            "tag": "cegah alergi",
+            "patterns": [
+                "cara mencegah alergi?",
+                "apa yang harus dihindari untuk mencegah alergi",
+                "alergi dicegah dengan apa?"
+            ],
+            "responses": [
+                "Hindari debu, bulu hewan, asap rokok, dan polusi udara. Gunakan kipas angin dan AC dengan filter bersih. Bersihkan rumah secara teratur."
+            ]
+        },
+        {
+            "tag": "relaksasi",
+            "patterns": [
+                "relaksasi mata?",
+                "bagaimana cara relaksasi mata?",
+                "apa relaksasi mata",
+                "relaksasi mata gimana?"
+            ],
+            "responses": [
+                "Istirahatkan mata dengan teknik 20-20-20, tutup mata sejenak, lakukan latihan fokus mata, dan pijat lembut area sekitar mata."
+            ]
+        },
+        {
+            "tag": "kompres",
+            "patterns": [
+                "bagaimana dengan kompres mata?",
+                "apakah kompres mata mambantu?",
+                "kompres mata membantu kesehatan mata?"
+            ],
+            "responses": [
+                "Ya, kompres mata dengan air hangat dapat meredakan kelelahan mata dan mengurangi ketegangan. Gunakan handuk yang bersih dan basahi dengan air hangat."
+            ]
+        },
+        {
+            "tag": "otot mata",
+            "patterns": [
+                "otot mata?",
+                "gerakan mata bisa mereksasi otot mata?",
+                "gerakan mata buat apa",
+                "menggerakan mata bisa menjadi relaksasi mata?"
+            ],
+            "responses": [
+                "Gerakan mata seperti menggeliat, berkedip cepat, dan melihat ke atas, bawah, kanan, dan kiri dapat membantu meredakan ketegangan mata."
+            ]
+        },
+        {
+            "tag": "meditasi",
+            "patterns": [
+                "meditasi mata",
+                "cara meditasi mata",
+                "apa mata bisa dimeditasi?",
+                "buat apa meditasi mata"
+            ],
+            "responses": [
+                "Ya, meditasi dengan fokus pada pernapasan dapat merelaksasi mata dan pikiran. Lakukan meditasi secara teratur untuk mendapatkan manfaat yang optimal."
+            ]
+        },
+        {
+            "tag": "menular",
+            "patterns": [
+                "penyakit mata menular",
+                "apa penyakit mata yang menular?",
+                "penyakit mata bisa nular?",
+                "penyakit mata apa yang menular"
+            ],
+            "responses": [
+                "Penyakit mata menular seperti konjungtivitis bisa disebabkan oleh virus atau bakteri. Gejala meliputi mata merah, gatal, berair, dan sensitif terhadap cahaya."
+            ]
+        },
+        {
+            "tag": "menjaga diri",
+            "patterns": [
+                "gimana menjaga diri dari penyakit mata yang menular?"
+            ],
+            "responses": [
+                "Cuci tangan dengan sabun secara teratur, hindari menyentuh mata dengan tangan kotor, jangan berbagi handuk atau alat kosmetik mata, dan hindari kontak langsung dengan orang yang terinfeksi."
+            ]
+        },
+        {
+            "tag": "obat tetes",
+            "patterns": [
+                "obat tetes mata",
+                "obat tetes mata bisa mencegah masalah mata?",
+                "apa obat tetes efektif mencegah masalah mata",
+                "manfaat obat tetes mata"
+            ],
+            "responses": [
+                "Obat tetes mata biasanya digunakan untuk mengobati infeksi mata. Penggunaannya harus sesuai dengan resep dokter dan tidak untuk pencegahan rutin."
+            ]
+        },
+        {
+            "tag": "kesehatan mata",
+            "patterns": [
+                "cek mata",
+                "gimana cara cek kesehatan mata",
+                "cara cek kesehatan mata",
+                "cek mata dimana?",
+                "penyakit mata ceknya gimana"
+            ],
+            "responses": [
+                "cek mata sekarang dapat dengan mudah dan cepat menggunakan EyeU. Download segera di playstore atau App store"
+            ]
+        },
+        {
+            "tag": "aplikasi",
+            "patterns": [
+                "apakah ada aplikasi cek kesehatan mata?",
+                "ada ga aplikasi kesehatan mata?",
+                "aplikasi kesehatan mata",
+                "aplikasi cek kesehatan mata"
+            ],
+            "responses": [
+                "Gunakan EyeU aplikasi cek kesehatan mata yang akurat dan inovatif yang dikembangkan oleh perusahaan startUp 'Yanu' "
+            ]
+        },
+        {
+            "tag": "aplikasi diagnosis",
+            "patterns": [
+                "aplikasi diagnosis mata",
+                "apa aplikasi diagnosis kesehatan mata",
+                "diagnosis mata gimana caranya"
+            ],
+            "responses": [
+                "Gunakan EyeU aplikasi cek kesehatan mata yang akurat dan inovatif yang dikembangkan oleh perusahaan startUp 'Yanu'"
+            ]
+        },
+        {
+            "tag": "siapa",
+            "patterns": [
+                "siapa pembuatmu?",
+                "yang membuatmu siapa?",
+                "kamu dibuat siapa",
+                "kamu buatan siapa"
+            ],
+            "responses": [
+                "saya dibuat oleh perusahaan starUp 'Yanu Company' dimana pendirinya adalah Raden mas Riky, Bima Arya, Lanange Jagat, dan Gading Putra."
+            ]
+        },
+        {
+            "tag": "EyeU",
+            "patterns": [
+                "EyeU",
+                "apa itu EyeU",
+                "EyeU aplikasi apa?",
+                "EyeU buat apa?",
+                "aplikasi EyeU aplikasi apa"
+            ],
+            "responses": [
+                "EyeU adalah aplikasi yang dikembangan starUp Yanu Company. Aplikasi ini dapat digunakan untuk mendeteksi dan mendiagnosis berbagai masalah kesehatan mata, terdapat banyak fitur didalamnya seperti konsultasi langsung dengan dokter mata secara online."
+            ]
+        },
+        {
+            "tag": "kelebihan",
+            "patterns": [
+                "kelebihan EyeU",
+                "apa kelebihan EyeU",
+                "Apa hebatnya Eye?",
+                "apa kelebihan EyeU dibanding yang lain?"
+            ],
+            "responses": [
+                "Eye adalah aplikasi pendeteksi kesehatan  mata, yang dapat langsung mendiagnosis penyakit mata seseorang."
+            ]
+        },
+        {
+            "tag": "rutin",
+            "patterns": [
+                "pemeriksaan mata harus rutin?",
+                "mengapa harus rutin periksa mata?",
+                "rutin periksa mata"
+            ],
+            "responses": [
+                "Pemeriksaan mata rutin penting untuk mendeteksi masalah mata awal, seperti katarak atau glaukoma, yang bisa diatasi lebih baik jika ditemukan lebih awal."
+            ]
+        },
+        {
+            "tag": "sering",
+            "patterns": [
+                "seberapa sering periksa mata?",
+                "periksa mata berapa kali?"
+            ],
+            "responses": [
+                "Disarankan untuk memeriksakan mata setidaknya sekali setiap dua tahun, terutama jika Anda berusia di atas 40 tahun atau memiliki riwayat penyakit mata dalam keluarga."
+            ]
+        },
+        {
+            "tag": "waktu",
+            "patterns": [
+                "berapa lama periksa mata",
+                "waktu periksa mata",
+                "berapa lama pemeriksaan mata"
+            ],
+            "responses": [
+                "Pemeriksaan mata rutin biasanya memakan waktu sekitar 30 hingga 60 menit, tergantung pada kompleksitas pemeriksaan dan apakah ada tes tambahan yang diperlukan. Namun sekarang dengan EyeU periksa mudah hanya 5-10 menit."
+            ]
+        },
+        {
+            "tag": "konsultasi",
+            "patterns": [
+                "konsultasi mata",
+                "dimana konsultasi mata?",
+                "konsultasi mata ke siapa?",
+                "konsultasi mata kemana?"
+            ],
+            "responses": [
+                "Deteksi dan Konsultasi kesehatan mata di satu tempat, Hanya di EyeU"
+            ]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": [
+                "hubungan diabetes dengan mata",
+                "diabetes bisa menyebabkan masalah mata?",
+                "diabetes ke kesehatan mata"
+            ],
+            "responses": [
+                "Diabetes dapat menyebabkan masalah mata seperti retinopati diabetik dan katarak karena tingginya kadar gula darah yang merusak pembuluh darah dan lensa mata."
+            ]
+        },
+        {
+            "tag": "mata",
+            "patterns": [
+                "diabetes mempengaruhi kesehatan mata",
+                "gimana bisa diabetes mempengaruhi kesehatan mata"
+            ],
+            "responses": [
+                "Diabetes dapat merusak pembuluh darah di mata, menyebabkan pendarahan atau pembengkakan retina, yang pada akhirnya dapat mengakibatkan kehilangan penglihatan jika tidak diobati."
+            ]
+        },
+        {
+            "tag": "edukasi",
+            "patterns": [
+                "edukasi mata",
+                "edukasi mata penting?",
+                "apa pentingnya edukasi kesehatan mata"
+            ],
+            "responses": [
+                "Edukasi mata membantu masyarakat mengenali gejala masalah mata, mendorong pemeriksaan mata rutin, dan memahami cara menjaga kesehatan penglihatan."
+            ]
+        },
+        {
+            "tag": [
+                "manfaat edukasi"
+            ],
+            "patterns": [
+                "manfaat edukasi",
+                "apa manfaat edukasi",
+                "edukasi buat apa?"
+            ],
+            "responses": [
+                "Pengetahuan kesehatan mata membantu seseorang memahami pentingnya kebersihan mata, jarak aman layar, dan penggunaan kacamata pelindung saat beraktivitas."
+            ]
+        },
+        {
+            "tag": "kesadaran",
+            "patterns": [
+                "kesadaran masyarakat",
+                "cara meningkatkan kesadaran",
+                "meningkatkan kesadaran kesehatan mata"
+            ],
+            "responses": [
+                "Kampanye pendidikan di sekolah, media sosial, dan lokakarya di komunitas dapat membantu meningkatkan kesadaran akan pentingnya perawatan mata."
+            ]
+        },
+        {
+            "tag": "mengabaikan",
+            "patterns": [
+                "kenapa orang mengabaikan kesehatan mata?",
+                "mengabaikan kesehatab mata",
+                "kesehatan mata diabaikan",
+                "kenapa orang-orang mengabaikan kesehatan mata"
+            ],
+            "responses": [
+                "Beberapa orang mungkin mengabaikan kesehatan mata karena kurangnya pengetahuan atau kesadaran akan risiko yang terkait, oleh karena itu edukasi sangat penting."
+            ]
+        },
+        {
+            "tag": "terima kasih",
+            "patterns": [
+                "terima kasih",
+                "makasih ya",
+                "makasih",
+                "makasih jawabanya",
+                "mantap",
+                "tepat",
+                "siap",
+                "matur nuwun",
+                "terima kasih banyak",
+                "Terima kasih",
+                "Thanks",
+                "Thank you",
+                "Itu membantu",
+                "Luar biasa, terima kasih",
+                "Terima kasih telah membantu saya",
+                "Ok, terima kasih",
+                "makasih",
+                "terimakasih",
+                "thq"
+            ],
+            "responses": [
+                "sama-sama",
+                "sama-sama, jika ada yang ingin ditanyakan lagi?",
+                "sama-sama, saya disini membantu anda",
+                "saya selalu disini membantu anda",
+                "baik, ada yang ingin ditanyakan lagi?"
+            ]
+        },
+        {
+            "tag": "kamu",
+            "patterns": [
+                "siapa kamu",
+                "kamu siapa?",
+                "nama mu siapa",
+                "siapa namamu",
+                "apa namamu",
+                "nama kamu",
+                "nama kamu siapa?"
+            ],
+            "responses": [
+                "saya adalah EyeBot, program chatbot yang dirancang khusus untuk menjadi asisten anda",
+                "saya EyeBot program chatbot pendamping anda",
+                "panggil saja EyeBot"
+            ],
+            "context" :[
+                ""
+            ]
+        }
+    ]
+}
